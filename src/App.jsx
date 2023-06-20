@@ -25,9 +25,10 @@ function App() {
       <div className=' gradient-01 z-0 absolute'></div>
       <div className=' gradient-02 z-0 absolute'></div>
 
-      {/*header */}
+      {/*header */} 
        <div className=' uppercase font-bold text-2xl text-center mb-3'>ChatGpt 2.0 </div>
-
+                {/*mb=margin-bottom */}
+                
       {/* Body*/}
        <div className='h-[90%] overflow-auto w-full max-w-4xl min-w-[20rem] py-8 px-4 self-center scrollbar-thumb-slate-400 scrollbar-thin scrollbar-track-gray-transparent scrollbar-thumb-rounded-md '>
         <ChatBody chat={chat}/>
